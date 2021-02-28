@@ -1,0 +1,7 @@
+J) Explain what you would need to consider to delete a customer from the customers table.
+Include this discussion in the lab submission text box.
+
+ - You would have to consider whether or not the customer has any orders still in the system, or if you 
+will need to pull up the records to offer refunds. Any form of easy future contact is terminated
+when the contact is erased. Also only delete when you need to make things more legible or the system
+needs more space.
