@@ -1,0 +1,18 @@
+7.
+  a) The variables with value under the DDL commands are create_db and create_table. 
+     There is 1 under the db and 34 under the table because those are the databases currently being used
+     by me when I write my scripts in mySQL. I could achieve the same results by creating the DBs on the fly
+     when I start scripting.
+  b) The variables with value under general are change_db, flush, select, and set_option
+	change_db is a record of how many times ive switched DBs
+	select is how many select statements I've queried the server
+	set_option is i believe how many times I've set a variable
+	and flush is the number of times I've cleared the cashe which I don't remember doing.
+
+8. General log is a log of everything that happens in the open session of mySql. Currently I have the 
+   general log set to OFF but I think that is standard unless you are looking for something 
+   specifically. general_log_file is just the name of the file for the current session. mine is named 
+   after the server, which I belive is also default.
+
+9. Status variables let you know how the current open session is running and details about it 
+   while system variables are concerned with the persistant between session variables.
